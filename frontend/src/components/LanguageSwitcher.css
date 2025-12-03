@@ -1,0 +1,32 @@
+.language-switcher {
+  display: flex;
+  gap: 4px;
+  background: rgba(102, 126, 234, 0.08);
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.lang-btn {
+  padding: 6px 12px;
+  background: transparent;
+  color: #718096;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.lang-btn:hover {
+  background: rgba(102, 126, 234, 0.12);
+  color: #667eea;
+}
+
+.lang-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 2px 6px rgba(102, 126, 234, 0.3);
+}
